@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.title {
+  border: 1px solid black;
+  width: 100vw;
+  height: 13vh;
+  position: relative;
+}
+
+.title > img {
+  width: 19vw;
+  height: 7vh;
+  margin-left: 3vw;
+  margin-top: 3vh;
+}
+
+.title > h2 {
+  float: right;
+  line-height: 15vh;
+  margin-right: 3vw;
+}
+
+.contenitore {
+  width: 100vw;
+  height: 87vh;
+  position: relative;
+}
+
+.quadrato {
+  border: 1px solid black;
+  width: 55vw;
+  height: 55vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.row {
+  width: 50%;
+  height: 100%;
+  padding: 5%;
+}
+
+.row.dx {
+  float:left;
+  line-height: 5vh;
+}
+
+.row.sx {
+  float:right;
+  line-height: 5vh;
+}
+
+input {
+  border-left: white;
+  border-top: white;
+  border-right: white;
+
+}
+
+.text {
+  width: 80%;
+  text-align: center;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: grey;
+  font-size: 13px;
+}
+
+.input {
+  color: grey;
+  font-size: 13px;
+}
