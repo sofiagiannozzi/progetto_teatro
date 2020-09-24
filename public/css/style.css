@@ -28,6 +28,7 @@ body {
   float: right;
   line-height: 15vh;
   margin-right: 3vw;
+  font-size: 20px;
 }
 
 .contenitore {
@@ -63,15 +64,16 @@ body {
   line-height: 5vh;
 }
 
-input {
+input, .input {
   border-left: white;
   border-top: white;
   border-right: white;
-
+  font-size: 13px;
 }
 
 .text {
-  width: 80%;
+  width: 90%;
+  height: 10%;
   text-align: center;
 }
 
@@ -81,11 +83,6 @@ button:hover {
 }
 
 a {
-  color: grey;
-  font-size: 13px;
-}
-
-.input {
   color: grey;
   font-size: 13px;
 }
